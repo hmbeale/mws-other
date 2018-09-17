@@ -1,0 +1,31 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 443px){
+  .filter-options {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width:1200px)  {
+  #restaurants-list li {
+    width: 35%;
+    display: inline-block;
+  }
+
+}
+
+@media screen and (min-width: 1200px){
+  body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #restaurants-list li {
+    width: 25%;
+    display: inline-block;
+  }
+}
